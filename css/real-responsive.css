@@ -1,0 +1,177 @@
+@media all and (max-width: 1600px) {
+    .block-testimonials .slick-initialized .slick-slide { padding: 0 15em; } 
+    .page-template-template-portfolio .header-con { text-align: center; margin-top: 5em; }
+} 
+
+@media all and (max-width: 1300px) {
+	.img-logo { width: 350px; }
+} 
+
+@media all and (max-width: 1241px) {
+    .block-what-we .icon-con { background-color: #23262a; padding: 2.8em; padding-top: 4.7em;  height: 190px; }    
+    .page-template-template-portfolio .header-con { text-align: center; margin-top: 3em; }
+}
+
+@media all and (max-width: 992px) { 
+    .header-con p { width: auto; }
+    .about-con h1{ margin-top: 0.7em; }
+    .block-what-we .icon-con { padding: 0; background-color: #23262a; height: 156px; text-align: center; padding-top: 4em; }
+
+    /* testimonials */
+    .block-testimonials .slick-initialized .slick-slide { padding: 0 6em; }
+
+    /* forma */
+    .contact { margin-bottom: 5em; }
+    .block-blog-single .post_thumbnail{ width: 100%; float:none; margin-left: 0; }
+
+    .blog .blog-home-con { padding: 3em; background-color: black; margin-bottom: 2em; }
+    .block-blog .btn-con { margin-top: 1.5em; }
+
+    /*template header*/
+    .page-template .img-logo { width: 39%; }
+    .scroll-me { margin-top: 2em; }
+
+}
+
+@media all and (max-width: 950px) { 
+	/* menu */
+	.menu-con { margin-top: -5em; }
+    #nav-icon span:nth-child(1) { top: 20px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; }
+    #nav-icon span:nth-child(2) { top: 27px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; }
+    #nav-icon span:nth-child(3) { top: 34px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; }
+}
+
+@media all and (max-width: 780px) {
+    .nav-btn { left: 15px; top: 25px; }
+
+    #nav-icon span:nth-child(1) { top: 18px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; }
+    #nav-icon span:nth-child(2) { top: 25px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; }
+    #nav-icon span:nth-child(3) { top: 32px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; }
+
+    #nav-icon.open span:nth-child(1) { top: 19px; left: 20px; }
+    #nav-icon.open span:nth-child(3) { top: 32px; left: 20px; }
+
+    .list-brand-con { padding-bottom: 6em; }
+    .accordion-section p { font-size: 1.1em; }
+
+    .post-container .archive-post h2 { margin-bottom: 0.5em; }
+    .post-container .archive-post p { margin-bottom: 20px; }
+    .post-img { margin-top: 3em; }
+    .ani-btn { height: 50px; }
+
+     .product_list_widget li{
+ /*        width: 100%;
+        margin-bottom: 2%; */
+    }
+    .wocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        /* width: 25%; */
+    }
+    .content_via_shop{
+        width: 100%;
+    }
+    .content_via_shop .products{
+        text-align: center;
+    }
+    .content_via_shop .products li,
+    .wocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        /* margin: 0 auto;
+        display: block;
+        float: none;
+        clear: both;
+        margin-left: initial;
+        transform: translateX(50%); */
+    }
+} 
+
+
+@media all and (max-width: 650px) { 
+	/* menu */
+	.menu-con { width: 100%; text-align: left; }
+	#lang_sel_list.lang_sel_list_vertical { display: inline; }
+
+	/* slider */
+	.img-logo { width: 280px; }
+	
+	/* testimonials */
+	.block-testimonials { padding-bottom: 3em; padding-top: 4.8em; }
+	.block-testimonials .slick-initialized .slick-slide { padding: 0 1em; }
+
+	/*onama page*/
+	.brands-con li { margin-bottom: 2em; }
+    .minimal-light .esg-filterbutton, .minimal-light .esg-navigationbutton, .minimal-light .esg-sortbutton, .minimal-light .esg-cartbutton a { padding: 0px 10px !important; font-size: 11px !important; }
+
+    section.page-contact { padding-top: 3.5em; padding-bottom: 3.5em; }
+    .contact-con i { margin-top: 0.3em; }
+
+    #lang_sel_list.lang_sel_list_vertical li { width: 90px; }
+    #lang_sel_list img.iclflag { width: 75px !important; height: 75px !important; }
+
+    .overlay a { font-size: 26px; }
+
+    .product_list_widget li{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .wocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        /* width: 25%; */
+    }
+    .content_via_shop{
+        width: 100%;
+    }
+    .content_via_shop .products{
+        text-align: center;
+    }
+    .content_via_shop .products li,
+    .wocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        /* margin: 0 auto;
+        display: block;
+        float: none;
+        clear: both;
+        margin-left: initial;
+        transform: translateX(50%); */
+    }
+
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 450px) { 
+    /*onama page*/
+	.video-con { width: 260px; }
+    .woocommerce #content table.cart td.actions .coupon .button.alt, .woocommerce #content table.cart td.actions .coupon .input-text + .button, .woocommerce table.cart td.actions .coupon .button.alt, .woocommerce table.cart td.actions .coupon .input-text + .button, .woocommerce-page #content table.cart td.actions .coupon .button.alt, .woocommerce-page #content table.cart td.actions .coupon .input-text + .button, .woocommerce-page table.cart td.actions .coupon .button.alt, .woocommerce-page table.cart td.actions .coupon .input-text + .button {
+        float: left !important;
+    }
+    #billing_first_name_field,
+    #billing_last_name_field,
+    #billing_email_field,
+    #billing_phone_field,
+    #billing_state_field,
+    #billing_postcode_field{
+        width: 100%;
+    }
+    .product_list_widget li{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .wocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        /* width: 25%; */
+    }
+    .content_via_shop{
+        width: 100%;
+    }
+    .content_via_shop .products{
+        text-align: center;
+    }
+    .content_via_shop .products li,
+    .wocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        /* margin: 0 auto;
+        display: block;
+        float: none;
+        clear: both;
+        margin-left: initial;
+        transform: translateX(50%); */
+    }
+
+
+}
